@@ -1,0 +1,68 @@
+.starwars{
+    display: flex;
+    flex-direction: column;
+    padding-left: 13rem ;
+    padding-right: 13rem;
+    justify-content: center;
+}
+.starwars__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+.starwars__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.starwars__title{
+    font-family: var(--font-raleway);
+    font-size: 36px;
+}
+.starwars__more{
+    display: flex;
+    align-items: center;
+}
+.starwars__more__link{
+    text-decoration: none;
+    font-family: var(--font-raleway);
+    font-size:16px;
+    color: var(--color-btn);
+}
+.starwars__more__img{
+    padding: 0.5rem;
+    align-self: flex-end;
+    width: 2rem;
+    height: 2rem;
+}
+.starwars__box{
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-basis: calc(15% - 20px);
+    border-radius: 5px;
+}
+.starwars__img img{
+    width:150px;
+    height: 150px;
+}
+.starwars__descripcion h2{
+    text-decoration: none;
+    font-family: var(--font-raleway);
+    font-size:14px;
+}
+.starwars__descripcion p{
+    text-decoration: none;
+    font-family: var(--font-raleway);
+    font-size:16px;
+}
+.starwars__descripcion a{
+    text-decoration: none;
+    font-family: var(--font-raleway);
+    font-size:16px;
+    color: var(--color-btn);
+}

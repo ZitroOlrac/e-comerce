@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/starwars.css">
+    <link rel="stylesheet" href="./css/consolas.css">
+    <link rel="stylesheet" href="./css/diversos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/producto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <iframe src="./menu.html"  frameborder="0" width="100%" height="60" ></iframe>
+    <section class="product" >
+        <div class="container__product">
+            <h2 class="title__product">Agregar nuevo producto</h2>
+            <form data-form>
+                <div class="container__product__box">
+                    <p>URL de Imagen</p>
+                    <input 
+                        name="imagen"
+                        id="imagen"
+                        class="input"
+                        type="text"
+                        placeholder="suba la imagen"
+                        required
+                        data-imagen
+                    />
+                </div>
+                <div class="container__product__box">
+                    <p>Categoria</p>
+                    <input 
+                    name="categoria"
+                    id="categoria"
+                    class="input"
+                    type="text"
+                    placeholder="categoria"
+                    required
+                    data-categoria
+                />
+                </div>
+                <div class="container__product__box">
+                    <p>Nombre del producto</p>
+                    <input 
+                    name="nombre"
+                    id="nombre"
+                    class="input"
+                    type="text"
+                    placeholder="nombre"
+                    required
+                    data-nombre
+                />
+                </div>
+                <div class="container__product__box">
+                    <p>Precio del producto</p>
+                    <input 
+                    name="precio"
+                    id="precio"
+                    class="input"
+                    type="text"
+                    placeholder="$50"
+                    required
+                    data-precio
+                />
+                </div>
+                <div class="container__product__box">
+                    <p>Descripcion del producto</p>
+                    <input 
+                    name="descripcion"
+                    id="descripcion"
+                    class="input"
+                    type="text"
+                    placeholder="descripcion"
+                    required
+                    data-descripcion
+                />
+                </div>
+                <div class="btn">
+                    <a class="btnlogin"><button type="submit">Agregar producto</button></a>
+                </div>
+            </div>
+            </form>
+        
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/registrar_producto.js"></script>
+    <iframe class="footer__iframe" src="footer.html" frameborder="0" width="100%" height="100%" scrolling="no"></iframe>
+</body>
+</html> 

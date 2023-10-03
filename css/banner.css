@@ -1,0 +1,34 @@
+.banner{
+    position: relative;
+}
+.banner__div img{
+width: 100%;
+height: auto;
+}
+.banner__container{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    position: absolute;
+    transform: translate(40%,-120%);
+}
+.banner__container h2{
+    font-family: var(--font-raleway);
+    font-size: 52px;
+    color: var(--color-header);
+    padding: 1rem 0 0 0;
+}
+.banner__container p{
+    font-family: var(--font-raleway);
+    font-size: 22px;
+    color: var(--color-header);
+    padding: 1rem 0 1rem 0;
+}
+.banner__btn button{
+    background-color: var(--color-btn);
+    font-family: var(--font-raleway);
+    color: var(--color-header);
+    font-size: 16px;
+    padding: 1rem;
+
+}

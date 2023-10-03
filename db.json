@@ -1,0 +1,52 @@
+{
+  "starwars": [
+    {
+      "titulo": "tasa",
+      "precio": 50,
+      "imagen": "./img/stromtrooperhead.png",
+      "id": 1
+    },
+    {
+      "titulo": "tasa 2",
+      "precio": 100,
+      "imagen": "../img/stromtrooperhead.png",
+      "id": 2
+    },
+    {
+      "titulo": "tasa 2",
+      "precio": 100,
+      "imagen": "../img/stromtrooperhead.png",
+      "id": 3
+    },
+    {
+      "titulo": "tasa 2",
+      "precio": 100,
+      "imagen": "../img/stromtrooperhead.png",
+      "id": 4
+    },
+    {
+      "titulo": "tasa 2",
+      "precio": 100,
+      "imagen": "../img/stromtrooperhead.png",
+      "id": 5
+    },
+    {
+      "titulo": "tasa 2",
+      "precio": 100,
+      "imagen": "../img/stromtrooperhead.png",
+      "id": 6
+    },
+    {
+      "titulo": "asdasd",
+      "precio": "20",
+      "imagen": "asdsad",
+      "id": "36d5e585-a9ba-4ae7-8a52-76f883578b10"
+    },
+    {
+      "titulo": "sadasd",
+      "precio": "150",
+      "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canva.com%2Favatars%2Ftemplates%2F&psig=AOvVaw2lHGcpKUP2YkChJcNuoDQ3&ust=1696388272203000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDa-O_w2IEDFQAAAAAdAAAAABAE",
+      "id": "67b9be60-88b1-4831-915a-da62e30b53b0"
+    }
+  ]
+}
